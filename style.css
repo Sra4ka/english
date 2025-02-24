@@ -1,0 +1,99 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body {
+    background: url(https://bogatyr.club/uploads/posts/2023-02/thumbs/1675452660_bogatyr-club-p-fon-obrazovanie-fon-vkontakte-11.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+   
+    
+}
+
+.container{
+    width: 1400px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+header {
+    background: #00abf5;
+    width: 100%;
+    height: 80px;
+    box-shadow:  0 0 20px #ab9c9c;
+    border-radius: 0 0 20px 20px;
+    border: #fff 1px solid;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    
+}
+
+header img  {
+    width: 70px;
+    margin: 20px 0 0 40px;
+
+
+}
+header h2{
+    text-transform: uppercase;
+    text-align: center;
+    color: #fff;
+    font-size: 30px;
+    margin: 20px auto;
+    text-shadow: 0 10px 10px #000;
+    transition: all 0.5s ease;  
+}
+header h2:hover{
+    color: #26d2f5;
+    transform: matrix3d(1.1, 0, 0, 0, 0, 1.1, 0, 0, 0, 0, 1.1, 0, 0, 0, 0, 1);
+    transition: all 0.5s ease;
+    text-shadow: 0 10px 10px #0448a9; 
+}
+.plashs{
+    perspective: 1000px;
+    display: flex;
+    justify-content: center;
+    margin: 50px 80px;
+}
+.plashs .windows img{
+    width: 100px;
+    height: 100px;
+    background: #f1eded;
+    border-radius:  20px 20px;
+    padding: 50px;
+    margin: 20px;
+    box-shadow: 0 10px 30px rgba(4, 135, 171, 0.5);
+    cursor: pointer;
+    transition: transform 1s ease;
+    transform:   rotateY(0deg) rotateX(0deg) rotateZ(0deg)  scale(1);
+    
+}
+
+.plashs .windows img:hover{
+    box-shadow:  5px 5px 30px 15px rgb(7, 62, 78,0.9);
+    transform:  rotateX(45deg) rotateY(11deg)  rotateZ(10deg) scale(1.1);
+    transition: all 0.5s ease;
+}
+footer{
+    text-align: center;
+    font-family: 'Arial', sans-serif;
+    font-size: 20px;
+    color: #2973db;
+    font-weight: 600;
+    text-shadow: 0 10px 10px #193d6f;
+    
+}
+footer:hover{
+    font-weight: 600;
+    color: #26d2f5;
+    transform: matrix3d(1.1, 0, 0, 0, 0, 1.1, 0, 0, 0, 0, 1.1, 0, 0, 0, 0, 1);
+    transition: all 0.5s ease;
+    text-shadow: 0 10px 10px #0448a9;
+    transform:  scale(1.1);
+}
+
+
+
+
